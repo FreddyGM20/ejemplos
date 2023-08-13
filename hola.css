@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  height: 100vh;
+}
+.roja {
+  background-color: red;
+}
+.azul {
+  background-color: blue;
+}
+.verde {
+  background-color: green;
+}
+.morada {
+  background-color: purple;
+}
+.magenta {
+  background-color: pink;
+}
+.caja {
+  height: 50px;
+  width: 100px;
+}
+.cajas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fila1,
+.fila3 {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+.fila2 {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
